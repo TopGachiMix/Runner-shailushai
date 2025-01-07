@@ -41,6 +41,7 @@ private void FixedUpdate()
     if (_isGrounded && Input.GetKeyDown(KeyCode.Space) || _isGrounded && Input.GetKeyDown(KeyCode.W) || _isGrounded && Input.GetKeyDown(KeyCode.UpArrow))
     {
         _rigidbody.velocity = Vector3.up * _jumpForce;
+        _anim.SetTrigger("jump");
     }
 
 
@@ -72,8 +73,7 @@ private void HandleMovement()
         
         _target = new Vector3(transform.position.x - _incriment , transform.position.y ,  transform.position.z);
         Debug.Log("Left");
-        _isMoved = true;
-        
+        _isMoved = true;        
     }
 
     else if (Input.GetKey(KeyCode.D) && transform.position.x < _maxRight || Input.GetKey(KeyCode.RightArrow) && transform.position.x < _maxRight)
@@ -171,6 +171,7 @@ private void Up()
     
     _rigidbody.velocity = Vector3.up * _jumpForce;
     Debug.Log("up");
+    _anim.SetTrigger("jump");
     
 }
 
