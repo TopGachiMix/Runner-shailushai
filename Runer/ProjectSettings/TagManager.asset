@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Clean
+  - Dest
+  - Mushroom
+  - train
+  - Road
+  - Board
+  - ladder
   layers:
   - Default
   - TransparentFX
@@ -13,9 +19,9 @@ TagManager:
   - Water
   - UI
   - Trap
-  - 
-  - 
-  - 
+  - Mushroom
+  - Road
+  - train
   - 
   - 
   - 
