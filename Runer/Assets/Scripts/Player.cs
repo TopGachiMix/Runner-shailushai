@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
   [SerializeField] private int _mushroomsCount;
   [SerializeField] private Text _textCount;
   [SerializeField] private GameObject _camera;
+  [SerializeField] private  float _privateZ;
+ 
   private PlayerController _player;
   private bool _isTrain = false;
 
@@ -44,7 +46,7 @@ public class Player : MonoBehaviour
     private void FreezeRotation()
     {
         Vector3 position = transform.position;
-        position.z = -46.5f;
+        position.z = _privateZ;
         transform.position = position;
     }
 

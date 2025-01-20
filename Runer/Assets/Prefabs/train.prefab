@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.0024, z: -0.00000023841858}
-  m_LocalScale: {x: 0.7, y: 1.0011643, z: 0.7}
+  m_LocalScale: {x: 0.52898186, y: 1.0011643, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2151594163428865092}
@@ -81,11 +81,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 784004881687214277, guid: 70b2effa058666e4cb0d38cc9b8a142b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.4
+      value: 1.7446799
       objectReference: {fileID: 0}
     - target: {fileID: 784004881687214277, guid: 70b2effa058666e4cb0d38cc9b8a142b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1999996
+      value: 2.46
       objectReference: {fileID: 0}
     - target: {fileID: 784004881687214277, guid: 70b2effa058666e4cb0d38cc9b8a142b, type: 3}
       propertyPath: m_LocalPosition.y
